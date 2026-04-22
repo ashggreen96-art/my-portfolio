@@ -16,18 +16,30 @@ header {
 nav a {
     color: darkgreen;
     margin-left: 20px;
+    list-style: none;
+    display: inline;
+    align-self: hover;
 }
 section {
     padding: 40px 20px;
     max-width: 1200px;
     margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-collapse: separate;
+    margin: 50px;
 }
 footer {
     background: darkolivegreen;
     colour: black
-    display: flex;
-    padding-top: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
     padding-left: 80px;
+    padding-top: 30px;
+}
+@media screen and (max width: 600px) {
+    body {
+        background-color: whitesmoke;
+    }
+    
 }
